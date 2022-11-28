@@ -2,12 +2,12 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://7509632e-7bed-4668-9164-598d02dc2a56",
 	"@type": "sc:Manifest",
-	"label": "Mappi Mundi from France and Switzerland",
+	"label": "Manuscript 1 (ONE)",
 	"metadata": [],
 	"description": [
 		{
-			"@value": "6 great folios from two lovely manuscript",
-			"@language": "latin"
+			"@value": "Big fat maps",
+			"@language": "French"
 		}
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
@@ -25,7 +25,7 @@
 			"canvases": [
 				{
 					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f232",
-					"label": "109r",
+					"label": "276",
 					"height": 5941,
 					"width": 4623,
 					"images": [
@@ -53,13 +53,13 @@
 					"@type": "sc:Canvas",
 					"related": {
 						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/manifest.json",
-						"label": "BnF. Département des Manuscrits. Latin 8878",
+						"label": "Canvas 2",
 						"format": ""
 					}
 				},
 				{
 					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f231",
-					"label": "108v",
+					"label": "Canvas 2",
 					"height": 5934,
 					"width": 4522,
 					"images": [
@@ -160,40 +160,6 @@
 					}
 				},
 				{
-					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
-					"label": "19v",
-					"height": 5106,
-					"width": 4009,
-					"images": [
-						{
-							"motivation": "sc:painting",
-							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
-							"resource": {
-								"format": "image/jpeg",
-								"service": {
-									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-									"@context": "http://iiif.io/api/image/1/context.json",
-									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46"
-								},
-								"height": 5106,
-								"width": 4009,
-								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46/full/full/0/native.jpg",
-								"@type": "dctypes:Image"
-							},
-							"@type": "oa:Annotation"
-						}
-					],
-					"thumbnail": {
-						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f46.thumbnail"
-					},
-					"@type": "sc:Canvas",
-					"related": {
-						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
-						"label": "BnF. Département des Manuscrits. Latin 6371",
-						"format": ""
-					}
-				},
-				{
 					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f48",
 					"label": "20v",
 					"height": 5100,
@@ -215,7 +181,42 @@
 								"@type": "dctypes:Image"
 							},
 							"@type": "oa:Annotation"
+						},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
+					"label": "19v",
+					"height": 5106,
+					"width": 4009,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46"
+								}
+								"height": 5106,
+								"width": 4009,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
 						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f46.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				
 					],
 					"thumbnail": {
 						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f48.thumbnail"
