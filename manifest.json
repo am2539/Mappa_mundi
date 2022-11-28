@@ -1,0 +1,234 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://7509632e-7bed-4668-9164-598d02dc2a56",
+	"@type": "sc:Manifest",
+	"label": "Mappi Mundi from France and Switzerland",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "6 great folios from two lovely manuscript",
+			"@language": "latin"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://334f0343-afc1-4523-814c-cf9d63f26831",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f232",
+					"label": "109r",
+					"height": 5941,
+					"width": 4623,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f232",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f232"
+								},
+								"height": 5941,
+								"width": 4623,
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f232/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f232.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 8878",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f231",
+					"label": "108v",
+					"height": 5934,
+					"width": 4522,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f231",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f231"
+								},
+								"height": 5934,
+								"width": 4522,
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f231/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f231.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 8878",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f35",
+					"label": "14r",
+					"height": 5045,
+					"width": 4055,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f35",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f35"
+								},
+								"height": 5045,
+								"width": 4055,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f35/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f35.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f43",
+					"label": "18r",
+					"height": 5096,
+					"width": 4058,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f43",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f43"
+								},
+								"height": 5096,
+								"width": 4058,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f43/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f43.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
+					"label": "19v",
+					"height": 5106,
+					"width": 4009,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f46",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46"
+								},
+								"height": 5106,
+								"width": 4009,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f46/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f46.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f48",
+					"label": "20v",
+					"height": 5100,
+					"width": 3994,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f48",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f48"
+								},
+								"height": 5100,
+								"width": 3994,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f48/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f48.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": []
+}
